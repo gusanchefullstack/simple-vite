@@ -4,6 +4,9 @@
   "description": "ViteJS project without templates",
   "main": "index.js",
   "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/gusanchefullstack/simple-vite/issues"
   },
-  "homepage": "https://github.com/gusanchefullstack/simple-vite#readme"
+  "homepage": "https://github.com/gusanchefullstack/simple-vite#readme",
+  "dependencies": {
+    "vite": "^4.3.5"
+  }
 }
